@@ -1,0 +1,65 @@
+
+    #borderimg {
+        border: 10px solid transparent;
+        padding: 20px;
+        border-color: grey;
+      }
+header {
+    padding:3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+header img{
+    display: 100%;
+}
+
+header nav a {
+    color:black;
+    padding: 25px 30px 20px;
+    text-decoration: none;
+    text-align: end;      
+}
+main{
+    padding: 2rem;
+    display: flex;
+
+}
+main section:first-child{
+    flex:3;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+main section:last-child{
+    flex:2
+}
+main img{
+    width: 100%;
+}
+section h3{
+    color: rgb(247, 27, 162);
+    text-align: left;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    padding: 10px;
+}
+section h1{
+    text-align:left;
+    font-size: 7rem;
+   font-weight:bolder;
+}
+section h2{
+    color: gray;
+    text-align: left;
+font-weight:thin ;
+font-family: 'Courier New';
+}
+section button{
+    background-image: url(./assets/background.svg);
+    border-image-outset: 10px;
+    width: 20rem;
+    padding: 3rem;
+    border-radius: 3rem;
+    border-image-outset: 2rem;
+}
+
