@@ -55,9 +55,9 @@ main div.text p {
 
 main div.text button {
     background-image: url(./assets/background.svg);
-    border-image-outset: 10px;
-    border-radius: 3rem;
-    padding: 3rem;
+    border-width: 100%;
+    border-radius: 25px;
+    padding: 30px;
     width: 250px;
 }
 
